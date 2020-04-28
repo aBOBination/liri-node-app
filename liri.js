@@ -3,7 +3,6 @@ var keys = require('./keys.js');
 var Spotify = require('node-spotify-api');
 var axios = require('axios');
 var spotify = new Spotify(keys.spotify);
-
 var argCommand = process.argv[2];
 var argSearch = process.argv[3];
 
@@ -12,20 +11,41 @@ function spotifyThis() {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        const items = data.tracks.items
-        console.log('---------------------------------------------------------')
-        items.forEach(res => {
-            console.log(res.artists[0].name)
-            console.log(res.name)
-            console.log(res.external_urls.spotify)
-            console.log(res.album.name)
-            console.log('---------------------------------------------------------')
+        const items = data.tracks.items;
+        console.log('---------------------------------------------------------');
+        items.forEach((res) => {
+            console.log(res.artists[0].name);
+            console.log(res.name);
+            console.log(res.external_urls.spotify);
+            console.log(res.album.name);
+            console.log('---------------------------------------------------------');
         });
     });
 }
 
 function concertThis() {
-    console.log('stuff');
+    var url = 'https://rest.bandsintown.com/artists/' + argSearch + '/events?app_id=codingbootcamp';
+
+    axios
+        .get(url)
+        .then(function (response) {
+            // handle success
+            data = response.data;
+            console.log('---------------------------------------------------------');
+            data.forEach(item => {
+                console.log(item.datetime)
+                console.log(item.venue.name)
+                console.log(item.venue.location)
+                console.log('---------------------------------------------------------');
+            });
+        })
+        .catch(function (error) {
+            // handle error
+            console.log(error);
+        })
+        .finally(function () {
+            // always executed
+        });
 }
 
 function movieThis() {
