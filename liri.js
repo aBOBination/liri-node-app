@@ -5,6 +5,19 @@ var axios = require('axios');
 var spotify = new Spotify(keys.spotify);
 var argCommand = process.argv[2];
 var argSearch = process.argv[3];
+var figlet = require('figlet');
+
+function sexyText(run) {
+    figlet(argSearch, function(err, data) {
+        if (err) {
+            console.log('Something went wrong...');
+            console.dir(err);
+            return;
+        }
+        console.log(data)
+        run
+    });
+}
 
 function spotifyThis() {
     spotify.search({ type: 'track', query: argSearch }, function (err, data) {
@@ -33,7 +46,7 @@ function concertThis() {
             data = response.data;
             console.log('---------------------------------------------------------');
             data.forEach(item => {
-                console.log(item.datetime)
+                console.log(item.datetime) // "MM/DD/YYYY"
                 console.log(item.venue.name)
                 console.log(item.venue.location)
                 console.log('---------------------------------------------------------');
@@ -58,10 +71,10 @@ function doWhatItSays() {
 
 switch (argCommand) {
     case 'concert-this':
-        concertThis();
+        sexyText(concertThis());
         break;
     case 'spotify-this-song':
-        spotifyThis();
+        sexyText(spotifyThis())
         break;
     case 'movie-this':
         movieThis();
