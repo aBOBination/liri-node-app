@@ -1,0 +1,7 @@
+00:45:52.047 INFO  node liri.js movie-this ghostbusters 2020-04-30T06:45:52.047Z 
+00:46:20.607 INFO  node liri.js do-what-it-says  2020-04-30T06:46:20.607Z 
+00:46:20.899 INFO  node liri.js spotify-this-song I Want it That Way 2020-04-30T06:46:20.899Z 
+00:46:34.397 INFO  node liri.js do-what-it-says  2020-04-30T06:46:34.396Z 
+00:46:34.706 INFO  node liri.js spotify-this-song I Want it That Way 2020-04-30T06:46:34.706Z 
+00:46:37.996 INFO  node liri.js do-what-it-says  2020-04-30T06:46:37.996Z 
+00:46:38.326 INFO  node liri.js concert-this Muse 2020-04-30T06:46:38.326Z 

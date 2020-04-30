@@ -3,10 +3,11 @@ var fs = require('fs');
 var keys = require('./keys.js');
 var Spotify = require('node-spotify-api');
 var axios = require('axios');
-var spotify = new Spotify(keys.spotify);
+var figlet = require('figlet');
+const { exec } = require('child_process');
+
 var argCommand = process.argv[2];
 var argSearch = process.argv[3];
-var figlet = require('figlet');
 
 function sexyText(run) {
     figlet(argSearch, function (err, data) {
@@ -20,7 +21,14 @@ function sexyText(run) {
     });
 }
 
+// create a custom timestamp format for log statements
+var logMessage = 'node liri.js ' + argCommand + ' ' + (argSearch ? argSearch : '').trim()
+
+const log = require('simple-node-logger').createSimpleLogger('log.txt');
+log.info(logMessage + ' ', new Date().toJSON());
+
 function spotifyThis() {
+    var spotify = new Spotify(keys.spotify);
     spotify.search({ type: 'track', query: argSearch }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
@@ -101,16 +109,21 @@ function doWhatItSays() {
         if (error) {
             return console.log(error);
         }
-
-        // We will then print the contents of data
-        console.log(data);
-
-        // Then split it by commas (to make it more readable)
-        var dataArr = data.split(',');
-
-        // We will then re-display the content as an array for later use.
-        console.log(dataArr);
+        var dataArr = data.split('\n');
+        var randomIndex = Math.floor(Math.random() * dataArr.length)
+        exec('node liri.js ' + dataArr[randomIndex].split(',').join(' '), (error, stdout, stderr) => {
+            if (error) {
+                console.log(`error: ${error.message}`);
+                return;
+            }
+            if (stderr) {
+                console.log(`stderr: ${stderr}`);
+                return;
+            }
+            console.log(`stdout: ${stdout}`);
+        });
     });
+
 }
 
 switch (argCommand) {
