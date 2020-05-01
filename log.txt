@@ -5,3 +5,112 @@
 00:46:34.706 INFO  node liri.js spotify-this-song I Want it That Way 2020-04-30T06:46:34.706Z 
 00:46:37.996 INFO  node liri.js do-what-it-says  2020-04-30T06:46:37.996Z 
 00:46:38.326 INFO  node liri.js concert-this Muse 2020-04-30T06:46:38.326Z 
+23:51:13.673 INFO  node liri.js concert-this beck 2020-05-01T05:51:13.673Z 
+23:57:25.288 INFO  node liri.js concert-this beck 2020-05-01T05:57:25.288Z 
+23:58:06.263 INFO  node liri.js concert-this beck 2020-05-01T05:58:06.263Z 
+23:58:26.000 INFO  node liri.js concert-this beck 2020-05-01T05:58:26.000Z 
+00:06:58.058 INFO  node liri.js concert-this foo fighters 2020-05-01T06:06:58.058Z 
+00:07:47.524 INFO  node liri.js concert-this foo fighters 2020-05-01T06:07:47.524Z 
+00:07:57.367 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:07:57.367Z 
+00:08:57.650 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:08:57.650Z 
+00:10:43.455 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:10:43.455Z 
+00:10:47.308 INFO  node liri.js concert-this foo fighters 2020-05-01T06:10:47.308Z 
+00:11:07.083 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:11:07.083Z 
+00:15:06.608 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:15:06.608Z 
+00:15:55.152 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:15:55.152Z 
+00:16:18.936 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:16:18.936Z 
+00:17:43.239 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:17:43.239Z 
+00:17:47.578 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:17:47.578Z 
+00:18:02.293 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:18:02.293Z 
+00:18:18.715 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:18:18.715Z 
+00:18:24.891 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:18:24.891Z 
+00:18:30.097 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:18:30.097Z 
+00:18:36.869 INFO  node liri.js concert-this foo fighters 2020-05-01T06:18:36.869Z 
+00:19:57.345 INFO  node liri.js concert-this foo fighters 2020-05-01T06:19:57.345Z 
+00:20:05.803 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:20:05.803Z 
+00:20:09.245 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:20:09.245Z 
+00:20:11.269 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:20:11.269Z 
+00:20:13.123 INFO  node liri.js concert-this foo fighters 2020-05-01T06:20:13.123Z 
+00:20:16.664 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:20:16.664Z 
+00:20:22.477 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:20:22.477Z 
+00:20:43.377 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:20:43.376Z 
+00:21:33.648 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:21:33.648Z 
+00:30:32.721 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:30:32.721Z 
+00:31:36.818 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:31:36.818Z 
+00:31:52.147 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:31:52.147Z 
+00:32:35.980 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:32:35.980Z 
+00:32:40.811 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:32:40.811Z 
+00:32:44.943 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:32:44.943Z 
+00:33:17.212 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:33:17.212Z 
+00:34:17.858 INFO  node liri.js movie-this lord of the rings 2020-05-01T06:34:17.858Z 
+00:34:21.625 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:34:21.625Z 
+00:34:35.350 INFO  node liri.js movie-this ghostbusters 2020-05-01T06:34:35.349Z 
+00:35:43.567 INFO  node liri.js do-what-it-says  2020-05-01T06:35:43.567Z 
+00:35:43.832 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:35:43.832Z 
+00:35:47.673 INFO  node liri.js do-what-it-says  2020-05-01T06:35:47.672Z 
+00:35:47.964 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:35:47.964Z 
+00:36:04.932 INFO  node liri.js spotify-this-song black sheep 2020-05-01T06:36:04.932Z 
+00:36:08.149 INFO  node liri.js do-what-it-says  2020-05-01T06:36:08.149Z 
+00:36:08.428 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:36:08.428Z 
+00:36:10.245 INFO  node liri.js do-what-it-says  2020-05-01T06:36:10.245Z 
+00:36:10.548 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:36:10.548Z 
+00:36:11.935 INFO  node liri.js do-what-it-says  2020-05-01T06:36:11.935Z 
+00:36:12.246 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:36:12.246Z 
+00:36:13.598 INFO  node liri.js do-what-it-says  2020-05-01T06:36:13.598Z 
+00:36:13.888 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:36:13.888Z 
+00:36:15.217 INFO  node liri.js do-what-it-says  2020-05-01T06:36:15.217Z 
+00:36:15.504 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:36:15.504Z 
+00:36:17.293 INFO  node liri.js do-what-it-says  2020-05-01T06:36:17.293Z 
+00:36:17.578 INFO  node liri.js concert-this Muse 2020-05-01T06:36:17.577Z 
+00:37:55.014 INFO  node liri.js do-what-it-says  2020-05-01T06:37:55.014Z 
+00:37:55.321 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:37:55.321Z 
+00:37:58.497 INFO  node liri.js do-what-it-says  2020-05-01T06:37:58.497Z 
+00:37:58.806 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:37:58.806Z 
+00:38:01.094 INFO  node liri.js do-what-it-says  2020-05-01T06:38:01.094Z 
+00:38:01.410 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:38:01.410Z 
+00:38:03.074 INFO  node liri.js do-what-it-says  2020-05-01T06:38:03.074Z 
+00:38:03.391 INFO  node liri.js concert-this Muse 2020-05-01T06:38:03.391Z 
+00:38:49.867 INFO  node liri.js do-what-it-says  2020-05-01T06:38:49.867Z 
+00:38:50.159 INFO  node liri.js concert-this Muse 2020-05-01T06:38:50.159Z 
+00:38:52.232 INFO  node liri.js do-what-it-says  2020-05-01T06:38:52.232Z 
+00:38:52.551 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:38:52.551Z 
+00:38:55.297 INFO  node liri.js do-what-it-says  2020-05-01T06:38:55.297Z 
+00:38:55.591 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:38:55.591Z 
+00:39:01.193 INFO  node liri.js do-what-it-says  2020-05-01T06:39:01.192Z 
+00:39:01.481 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:39:01.481Z 
+00:39:57.628 INFO  node liri.js do-what-it-says  2020-05-01T06:39:57.628Z 
+00:39:57.914 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:39:57.914Z 
+00:40:00.457 INFO  node liri.js do-what-it-says  2020-05-01T06:40:00.457Z 
+00:40:00.763 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:40:00.762Z 
+00:40:02.508 INFO  node liri.js do-what-it-says  2020-05-01T06:40:02.508Z 
+00:40:02.796 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:40:02.796Z 
+00:40:04.347 INFO  node liri.js do-what-it-says  2020-05-01T06:40:04.347Z 
+00:40:04.660 INFO  node liri.js concert-this Muse 2020-05-01T06:40:04.659Z 
+00:40:06.477 INFO  node liri.js do-what-it-says  2020-05-01T06:40:06.477Z 
+00:40:06.765 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:40:06.764Z 
+00:40:22.854 INFO  node liri.js do-what-it-says  2020-05-01T06:40:22.854Z 
+00:40:23.147 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:40:23.147Z 
+00:40:24.347 INFO  node liri.js do-what-it-says  2020-05-01T06:40:24.347Z 
+00:40:24.652 INFO  node liri.js movie-this Foo Fighters 2020-05-01T06:40:24.652Z 
+00:40:25.820 INFO  node liri.js do-what-it-says  2020-05-01T06:40:25.820Z 
+00:40:26.138 INFO  node liri.js concert-this Elton John 2020-05-01T06:40:26.138Z 
+00:40:28.138 INFO  node liri.js do-what-it-says  2020-05-01T06:40:28.138Z 
+00:40:28.412 INFO  node liri.js concert-this Elton John 2020-05-01T06:40:28.412Z 
+00:44:08.716 INFO  node liri.js do-what-it-says  2020-05-01T06:44:08.716Z 
+00:44:08.973 INFO  node liri.js movie-this Dumb and Dumber 2020-05-01T06:44:08.973Z 
+00:44:12.165 INFO  node liri.js do-what-it-says  2020-05-01T06:44:12.164Z 
+00:44:12.470 INFO  node liri.js concert-this Foo Fighters 2020-05-01T06:44:12.470Z 
+00:44:22.616 INFO  node liri.js do-what-it-says  2020-05-01T06:44:22.615Z 
+00:44:22.949 INFO  node liri.js movie-this Dumb and Dumber 2020-05-01T06:44:22.949Z 
+00:44:28.023 INFO  node liri.js do-what-it-says  2020-05-01T06:44:28.023Z 
+00:44:28.338 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-01T06:44:28.338Z 
+00:44:37.585 INFO  node liri.js do-what-it-says  2020-05-01T06:44:37.585Z 
+00:44:37.874 INFO  node liri.js concert-this Weezer 2020-05-01T06:44:37.874Z 
+00:44:52.012 INFO  node liri.js do-what-it-says  2020-05-01T06:44:52.011Z 
+00:44:52.325 INFO  node liri.js concert-this Elton John 2020-05-01T06:44:52.325Z 
+00:45:05.184 INFO  node liri.js do-what-it-says  2020-05-01T06:45:05.184Z 
+00:45:05.482 INFO  node liri.js spotify-this-song Love Song 2020-05-01T06:45:05.482Z 
+00:45:33.834 INFO  node liri.js do-what-it-says  2020-05-01T06:45:33.834Z 
+00:45:34.143 INFO  node liri.js concert-this Weezer 2020-05-01T06:45:34.143Z 
+00:45:46.840 INFO  node liri.js do-what-it-says  2020-05-01T06:45:46.840Z 
+00:45:47.133 INFO  node liri.js spotify-this-song I wont give up 2020-05-01T06:45:47.133Z 

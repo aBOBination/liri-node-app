@@ -4,6 +4,7 @@ var keys = require('./keys.js');
 var Spotify = require('node-spotify-api');
 var axios = require('axios');
 var figlet = require('figlet');
+var moment = require('moment');
 const { exec } = require('child_process');
 
 var argCommand = process.argv[2];
@@ -34,13 +35,13 @@ function spotifyThis() {
             return console.log('Error occurred: ' + err);
         }
         const items = data.tracks.items;
-        console.log('---------------------------------------------------------');
-        items.forEach((res) => {
-            console.log(res.artists[0].name);
-            console.log(res.name);
-            console.log(res.external_urls.spotify);
-            console.log(res.album.name);
-            console.log('---------------------------------------------------------');
+            console.log('========================================================= \n');
+            items.forEach((res) => {
+            console.log('Artist:    ' + res.artists[0].name);
+            console.log('Song Name: ' + res.name);
+            console.log('URL:       ' + res.external_urls.spotify);
+            console.log('Album:     ' + res.album.name + '\n');
+            console.log('========================================================= \n');
         });
     });
 }
@@ -53,13 +54,12 @@ function concertThis() {
         .then(function (response) {
             // handle success
             data = response.data;
-            console.log('---------------------------------------------------------');
+            console.log('========================================================= \n');
             data.forEach((item) => {
-                console.log(item.datetime); // "MM/DD/YYYY"
-                console.log(item.venue.name);
-                console.log(item.venue.location);
-                console.log('---------------------------------------------------------');
-            });
+                console.log('Venue:    ' + item.venue.name);
+                console.log('Location: ' + item.venue.location);
+                console.log('Date:     ' + moment(item.datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY') + '\n');
+                console.log('========================================================= \n');            });
         })
         .catch(function (error) {
             // handle error
@@ -79,21 +79,19 @@ function movieThis() {
         .then(function (response) {
             // handle success
             data = response.data;
-            console.log('---------------------------------------------------------');
-            console.log('Title                  : ' + data.Title); // "MM/DD/YYYY"
-            console.log('Year                   : ' + data.Year);
-            console.log('IMDB Rating            : ' + data.imdbRating);
+            console.log('========================================================= \n');            console.log('Title:                   ' + data.Title); // "MM/DD/YYYY"
+            console.log('Year:                    ' + data.Year);
+            console.log('IMDB Rating:             ' + data.imdbRating);
             data.Ratings.forEach((rating) => {
                 if (rating.Source === 'Rotten Tomatoes') {
-                    console.log('Rotten Tomatoes Rating : ' + rating.Value);
+                    console.log('Rotten Tomatoes Rating:  ' + rating.Value);
                 }
             });
-            console.log('Country                : ' + data.Country);
-            console.log('Language               : ' + data.Language);
-            console.log('Plot                   : ' + data.Plot);
-            console.log('Actors                 : ' + data.Actors);
-            console.log('---------------------------------------------------------');
-        })
+            console.log('Country:                 ' + data.Country);
+            console.log('Language:                ' + data.Language);
+            console.log('Plot:                    ' + data.Plot);
+            console.log('Actors:                  ' + data.Actors + '\n');
+            console.log('========================================================= \n');        })
         .catch(function (error) {
             // handle error
             console.log(error);
@@ -134,7 +132,7 @@ switch (argCommand) {
         sexyText(spotifyThis());
         break;
     case 'movie-this':
-        movieThis();
+        sexyText(movieThis());
         break;
     case 'do-what-it-says':
         doWhatItSays();

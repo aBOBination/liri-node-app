@@ -14,12 +14,9 @@ This is a LIRI app meant to help users search Spotify for songs, Bands in Town f
 
 - concert-this
 
-
 - spotify-this-song
 
-
 - movie-this
-
 
 - do-what-it-says
 
