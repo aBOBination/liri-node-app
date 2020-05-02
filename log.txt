@@ -114,3 +114,8 @@
 00:45:34.143 INFO  node liri.js concert-this Weezer 2020-05-01T06:45:34.143Z 
 00:45:46.840 INFO  node liri.js do-what-it-says  2020-05-01T06:45:46.840Z 
 00:45:47.133 INFO  node liri.js spotify-this-song I wont give up 2020-05-01T06:45:47.133Z 
+08:51:22.689 INFO  node liri.js do-what-it-says  2020-05-01T14:51:22.689Z 
+08:51:22.956 INFO  node liri.js concert-this Foo Fighters 2020-05-01T14:51:22.956Z 
+08:51:29.146 INFO  node liri.js spotify-this-song black sheep 2020-05-01T14:51:29.146Z 
+09:53:55.712 INFO  node liri.js concert-this Elton John 2020-05-01T15:53:55.711Z 
+09:54:58.158 INFO  node liri.js concert-this Elton John 2020-05-01T15:54:58.158Z 

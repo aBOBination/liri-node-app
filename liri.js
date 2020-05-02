@@ -37,11 +37,11 @@ function spotifyThis() {
         const items = data.tracks.items;
             console.log('========================================================= \n');
             items.forEach((res) => {
-            console.log('Artist:    ' + res.artists[0].name);
-            console.log('Song Name: ' + res.name);
-            console.log('URL:       ' + res.external_urls.spotify);
-            console.log('Album:     ' + res.album.name + '\n');
-            console.log('========================================================= \n');
+                console.log('Artist:    ' + res.artists[0].name);
+                console.log('Song Name: ' + res.name);
+                console.log('URL:       ' + res.external_urls.spotify);
+                console.log('Album:     ' + res.album.name + '\n');
+                console.log('========================================================= \n');
         });
     });
 }
