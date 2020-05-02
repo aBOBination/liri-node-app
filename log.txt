@@ -119,3 +119,18 @@
 08:51:29.146 INFO  node liri.js spotify-this-song black sheep 2020-05-01T14:51:29.146Z 
 09:53:55.712 INFO  node liri.js concert-this Elton John 2020-05-01T15:53:55.711Z 
 09:54:58.158 INFO  node liri.js concert-this Elton John 2020-05-01T15:54:58.158Z 
+18:47:03.044 INFO  node liri.js do-what-it-says  2020-05-02T00:47:03.044Z 
+18:47:07.016 INFO  node liri.js movie-this Dumb and Dumber 2020-05-02T00:47:07.016Z 
+18:48:11.598 INFO  node liri.js do-what-it-says  2020-05-02T00:48:11.598Z 
+18:48:13.141 INFO  node liri.js concert-this Foo Fighters 2020-05-02T00:48:13.141Z 
+19:39:38.571 INFO  node liri.js do-what-it-says  2020-05-02T01:39:38.571Z 
+19:39:39.026 INFO  node liri.js concert-this Weezer 2020-05-02T01:39:39.026Z 
+20:27:43.989 INFO  node liri.js do-what-it-says  2020-05-02T02:27:43.989Z 
+20:27:44.462 INFO  node liri.js spotify-this-song Love Song 2020-05-02T02:27:44.462Z 
+10:03:26.003 INFO  node liri.js concert-this halsey 2020-05-02T16:03:26.003Z 
+10:29:47.894 INFO  node liri.js spotify-this-song say it aint so 2020-05-02T16:29:47.894Z 
+10:30:12.337 INFO  node liri.js spotify-this-song say it aint so 2020-05-02T16:30:12.337Z 
+10:30:24.098 INFO  node liri.js spotify-this-song say it aint so 2020-05-02T16:30:24.098Z 
+10:30:43.217 INFO  node liri.js do-what-it-says  2020-05-02T16:30:43.217Z 
+10:30:43.624 INFO  node liri.js spotify-this-song I wont give up 2020-05-02T16:30:43.624Z 
+10:30:58.666 INFO  node liri.js spotify-this-song say it aint so 2020-05-02T16:30:58.666Z 

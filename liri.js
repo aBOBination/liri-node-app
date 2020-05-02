@@ -8,7 +8,7 @@ var moment = require('moment');
 const { exec } = require('child_process');
 
 var argCommand = process.argv[2];
-var argSearch = process.argv[3];
+var argSearch = process.argv.slice(3).join(' ');
 
 function sexyText(run) {
     figlet(argSearch, function (err, data) {
@@ -23,7 +23,7 @@ function sexyText(run) {
 }
 
 // create a custom timestamp format for log statements
-var logMessage = 'node liri.js ' + argCommand + ' ' + (argSearch ? argSearch : '').trim()
+var logMessage = 'node liri.js ' + argCommand + ' ' + (argSearch ? argSearch : '').trim();
 
 const log = require('simple-node-logger').createSimpleLogger('log.txt');
 log.info(logMessage + ' ', new Date().toJSON());
@@ -35,13 +35,13 @@ function spotifyThis() {
             return console.log('Error occurred: ' + err);
         }
         const items = data.tracks.items;
+        console.log('========================================================= \n');
+        items.forEach((res) => {
+            console.log('Artist:    ' + res.artists[0].name);
+            console.log('Song Name: ' + res.name);
+            console.log('URL:       ' + res.external_urls.spotify);
+            console.log('Album:     ' + res.album.name + '\n');
             console.log('========================================================= \n');
-            items.forEach((res) => {
-                console.log('Artist:    ' + res.artists[0].name);
-                console.log('Song Name: ' + res.name);
-                console.log('URL:       ' + res.external_urls.spotify);
-                console.log('Album:     ' + res.album.name + '\n');
-                console.log('========================================================= \n');
         });
     });
 }
@@ -59,7 +59,8 @@ function concertThis() {
                 console.log('Venue:    ' + item.venue.name);
                 console.log('Location: ' + item.venue.location);
                 console.log('Date:     ' + moment(item.datetime, 'YYYY-MM-DDTHH:mm:ss').format('MM/DD/YYYY') + '\n');
-                console.log('========================================================= \n');            });
+                console.log('========================================================= \n');
+            });
         })
         .catch(function (error) {
             // handle error
@@ -79,7 +80,8 @@ function movieThis() {
         .then(function (response) {
             // handle success
             data = response.data;
-            console.log('========================================================= \n');            console.log('Title:                   ' + data.Title); // "MM/DD/YYYY"
+            console.log('========================================================= \n');
+            console.log('Title:                   ' + data.Title); // "MM/DD/YYYY"
             console.log('Year:                    ' + data.Year);
             console.log('IMDB Rating:             ' + data.imdbRating);
             data.Ratings.forEach((rating) => {
@@ -91,7 +93,8 @@ function movieThis() {
             console.log('Language:                ' + data.Language);
             console.log('Plot:                    ' + data.Plot);
             console.log('Actors:                  ' + data.Actors + '\n');
-            console.log('========================================================= \n');        })
+            console.log('========================================================= \n');
+        })
         .catch(function (error) {
             // handle error
             console.log(error);
@@ -108,7 +111,7 @@ function doWhatItSays() {
             return console.log(error);
         }
         var dataArr = data.split('\n');
-        var randomIndex = Math.floor(Math.random() * dataArr.length)
+        var randomIndex = Math.floor(Math.random() * dataArr.length);
         exec('node liri.js ' + dataArr[randomIndex].split(',').join(' '), (error, stdout, stderr) => {
             if (error) {
                 console.log(`error: ${error.message}`);
@@ -121,7 +124,6 @@ function doWhatItSays() {
             console.log(`stdout: ${stdout}`);
         });
     });
-
 }
 
 switch (argCommand) {
