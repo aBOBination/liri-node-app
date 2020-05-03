@@ -138,3 +138,19 @@
 00:51:54.252 INFO  node liri.js concert-this foofights 2020-05-03T06:51:54.252Z 
 00:52:09.738 INFO  node liri.js concert-this foofights 2020-05-03T06:52:09.738Z 
 00:53:19.264 INFO  node liri.js concert-this foofighters 2020-05-03T06:53:19.264Z 
+00:54:47.710 INFO  node liri.js concert-this foofighters 2020-05-03T06:54:47.710Z 
+00:55:31.963 INFO  node liri.js concert-this foofighters 2020-05-03T06:55:31.963Z 
+00:56:16.273 INFO  node liri.js concert-this foofighters 2020-05-03T06:56:16.273Z 
+00:57:49.902 INFO  node liri.js concert-this foofighters 2020-05-03T06:57:49.902Z 
+00:58:25.948 INFO  node liri.js concert-this foofighters 2020-05-03T06:58:25.947Z 
+00:59:03.336 INFO  node liri.js concert-this foofighters 2020-05-03T06:59:03.336Z 
+00:59:17.263 INFO  node liri.js concert-this foofighters 2020-05-03T06:59:17.263Z 
+01:06:09.328 INFO  node liri.js undefined  2020-05-03T07:06:09.328Z 
+01:06:25.667 INFO  node liri.js do-what-i-say  2020-05-03T07:06:25.667Z 
+01:06:35.170 INFO  node liri.js do-what-it-say  2020-05-03T07:06:35.169Z 
+01:06:37.685 INFO  node liri.js do-what-it-says  2020-05-03T07:06:37.685Z 
+01:06:37.962 INFO  node liri.js concert-this Elton John 2020-05-03T07:06:37.962Z 
+01:06:42.879 INFO  node liri.js do-what-it-says  2020-05-03T07:06:42.879Z 
+01:06:43.153 INFO  node liri.js spotify-this-song I Want it That Way 2020-05-03T07:06:43.152Z 
+01:07:03.050 INFO  node liri.js do-what-it-says  2020-05-03T07:07:03.050Z 
+01:07:03.378 INFO  node liri.js movie-this Dumb and Dumber 2020-05-03T07:07:03.378Z 
