@@ -134,3 +134,7 @@
 10:30:43.217 INFO  node liri.js do-what-it-says  2020-05-02T16:30:43.217Z 
 10:30:43.624 INFO  node liri.js spotify-this-song I wont give up 2020-05-02T16:30:43.624Z 
 10:30:58.666 INFO  node liri.js spotify-this-song say it aint so 2020-05-02T16:30:58.666Z 
+00:51:32.769 INFO  node liri.js concert-this foo fighters 2020-05-03T06:51:32.769Z 
+00:51:54.252 INFO  node liri.js concert-this foofights 2020-05-03T06:51:54.252Z 
+00:52:09.738 INFO  node liri.js concert-this foofights 2020-05-03T06:52:09.738Z 
+00:53:19.264 INFO  node liri.js concert-this foofighters 2020-05-03T06:53:19.264Z 
